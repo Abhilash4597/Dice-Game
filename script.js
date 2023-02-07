@@ -15,11 +15,11 @@ play.addEventListener('click', () => {
   img2.setAttribute('src', randomImgPath2);
   
   if (randomNum1 > randomNum2) {
-    heading.innerHTML = 'Player-1 is Winner';
+    heading.innerHTML = '🎉 Player-1 is Winner';
   } else if (randomNum1 < randomNum2) {
-    heading.innerHTML = 'Player-2 is Winner';
+    heading.innerHTML = 'Player-2 is Winner 🎉';
   } else {
-    heading.innerHTML = 'Draw';
+    heading.innerHTML = '🎃 Draw 🎃';
   }
 })
 
